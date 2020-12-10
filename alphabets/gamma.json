@@ -1,0 +1,51 @@
+{
+	"all":["a","i","y","e","~","c","g","h","r","s","x","d","f","l","n","t","v","z"],
+	"name":"Beta",
+	"letters":[
+	{
+		"major":true,
+		"chars":["a","i","y","e","~"],
+		"doubles":["a", "y"],
+		"frsound":["ah","ai","i","oe","weu"],
+		"chances":34,
+		"subchances": [
+			{"char":"a","chances":25,"double":true},
+			{"char":"i","chances":23,"double":false},
+			{"char":"y","chances":21,"double":true},
+			{"char":"e","chances":20,"double":false},
+			{"char":"~","chances":11,"double":false}
+		]
+	},
+	{
+		"major":false,
+		"chars": ["c","g","h","r","s","x"],
+		"doubles":["s", "x"],
+		"frsound":["k","gu","hr","re","s","gz"],
+		"chances":36,
+		"subchances": [
+			{"char":"s","chances":19,"double":true},
+			{"char":"x","chances":19,"double":true},
+			{"char":"g","chances":17,"double":false},
+			{"char":"c","chances":16,"double":false},
+			{"char":"h","chances":15,"double":false},
+			{"char":"r","chances":14,"double":false}
+		]
+	},
+	{
+		"major":false,
+		"chars": ["d","f","l","n","t","v","z"],
+		"doubles":["z"],
+		"frsound":["de","f","le","n","t","v","z"],
+		"chances":30,
+		"subchances": [
+			{"char":"z","chances":18,"double":true},
+			{"char":"d","chances":17,"double":false},
+			{"char":"t","chances":15,"double":false},
+			{"char":"l","chances":15,"double":false},
+			{"char":"n","chances":14,"double":false},
+			{"char":"f","chances":12,"double":false},
+			{"char":"v","chances":9,"double":false}
+		]
+	}
+	]
+}
